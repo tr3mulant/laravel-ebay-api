@@ -1,0 +1,29 @@
+{
+    "name": "tremulanttech/laravel-ebay-api",
+    "description": "A Laravel wrapper for eBay's API (via benmorel/ebay-sdk-php)",
+    "type": "library",
+    "license": "Apache License 2.0",
+    "autoload": {
+        "psr-4": {
+            "TremulantTech\\LaravelEbayApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TremulantTech\\LaravelEbayApi\\LaravelEbayApiServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Tremulant Technologies",
+            "homepage": "https://tremulanttech.com",
+            "email": "scott_st.john@tremulanttech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "benmorel/ebay-sdk-php": "dev-master"
+    }
+}
