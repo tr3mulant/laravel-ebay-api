@@ -25,7 +25,7 @@
     "minimum-stability": "dev",
     "require": {
         "benmorel/ebay-sdk-php": "dev-master",
-        "illuminate/support": "10.x-dev",
-        "illuminate/database": "10.x-dev"
+        "illuminate/database": "12.x-dev",
+        "illuminate/support": "12.x-dev"
     }
 }
